@@ -1,3 +1,9 @@
+INTEGRANTES DEL GRUPO:
+- Alberdi, Catalina
+- Rohling Insua, Nataly
+- Lazzati, Camila
+- Thiwissen, Valentina
+
 
  Practica de persistencia de datos.
 *Objetivo: Persistir las clases de dominio en una base de datos relacional.
