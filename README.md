@@ -5,7 +5,7 @@ INTEGRANTES DEL GRUPO:
 - Thiwissen, Valentina
 
 JUSTIFICACIONES: Modelado de Datos (Ejercicio 3)
-- No decidimos persistir las api ( Distance Api Matrix y la de UTN). 
+- No decidimos persistir las api (Distance Api Matrix y la de UTN). 
 - Decidimos hacer la entidad coordenada para normalizar .
 - Decidimos que la relación entre Cliente y Presupuesto sea One to Many.
 - Tenemos dos enums en nuestra solución que los decidimos persistir en VARCHAR(255).
