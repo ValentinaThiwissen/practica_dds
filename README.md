@@ -4,6 +4,15 @@ INTEGRANTES DEL GRUPO:
 - Lazzati, Camila
 - Thiwissen, Valentina
 
+JUSTIFICACIONES: Modelado de Datos
+- No decidimos persistir las api ( Distance Api Matrix y la de UTN). 
+- Decidimos hacer la entidad coordenada para normalizar .
+- Decidimos que la relación entre Cliente y Presupuesto sea One to Many.
+- Tenemos dos enums en nuestra solución que los decidimos persistir en VARCHAR(255).
+  
+JUSTIFICACIONES: Persistencia de Datos (desde el modelo de clases hacia el modelo de datos)
+- La interfaz Motivacion decidimos mapearla utilizando un converter ya que es una interfaz stateless, así nos aseguramos que no se pierda la referencia a la interfaz desde otras clases.
+- P ara Rutina y DiaDeEntrenamiento realizamos un mapeo de clases recursivas, guardando un atributo en la tabla haciendo que se autoreferencien a si mismos guardando una FK en su misma tabla.
 
  Practica de persistencia de datos.
 *Objetivo: Persistir las clases de dominio en una base de datos relacional.
